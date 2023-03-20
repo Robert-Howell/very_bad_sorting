@@ -6,9 +6,9 @@ def shuffle_shuffle(n):
     num_list = [i for i in range(1, n)]
     random.shuffle(num_list)
     sorted_list = sorted(num_list)
+    count_list = []
 
     for i in range(10):
-        count_list = []
         rep_count = 0
         random.shuffle(num_list)
         while num_list != sorted_list:
